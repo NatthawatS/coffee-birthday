@@ -1,0 +1,57 @@
+
+.container, .cup, .dish, .handle, .circle {
+  position: absolute;
+  align-items: center;
+}
+
+
+.container{
+  margin:auto;
+  top:0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+}
+
+
+.cup{
+  width: 150px;
+  height: 120px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background: #444444;
+  }
+  
+
+.handle{
+  width: 80px;
+  height: 80px;
+  background:#444444;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  left: 125px;
+}
+.circle { 
+  width: 65px; 
+  height: 65px; 
+  background: #ffffff; 
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  left:123px;
+  top:8px;
+  
+  }
+
+
+.dish{
+  width: 230px;
+  height: 30px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background: #444444;
+  top:125px;
+  right: 0px;
+
+}
